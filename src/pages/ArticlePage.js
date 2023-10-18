@@ -20,7 +20,6 @@ const ArticlePage = () => {
             const newArticleInfo = response.data;
             setArticleInfo(newArticleInfo);
         }
-
         loadArticleInfo();
     });
     
